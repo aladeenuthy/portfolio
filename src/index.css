@@ -138,6 +138,20 @@ nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
 .service > div:last-of-type{
   flex-basis: 30%;
 }
+@media (max-width: 576px) { 
+  .main-home img{
+    max-width: 100%;
+  }
+  .project-image-container img{
+    height: auto;
+    width: 100%;
+  }
+  .project-image-container{
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 5px;
+  }
+  
+}
 
 @media (max-width: 768px){
   .app-body{
@@ -150,6 +164,8 @@ nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
     margin-top: 200px;
     height: auto;
   }
+
+
   .mobile-nav{
     display: block;
   }
