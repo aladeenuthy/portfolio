@@ -62,9 +62,15 @@ function Navbar() {
                 Services
             </Link>
       <div className='d-flex align-items-center'>
-          <TfiGithub size={30} className="icons" title='github'/>
+      <a href='https://github.com/aladeenuthy'>
+          <TfiGithub size={30} className="icons" title='github' />
+          </a>
+          <a  href='https://twitter.com/aladeen__uthy'>
           <AiFillTwitterCircle size={30} className="icons" title='twitter'/>
+          </a>
+          <a href='mailto:aladeenuthy@gmail.com'>
           <AiFillMail size={30} className="icons" title='mail'/>
+          </a>
       </div>
 		</div>
 	</div>
