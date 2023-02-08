@@ -31,7 +31,9 @@ function ProjectBody() {
           <Project 
           key={"Pokedex"}
           projectName={"Pokedex"} 
-          projectDescription= {"A responsive pokemon app that let's you explore a large libarary of pokemons, view their strenghts and save your favorite pokemons!"}
+          projectDescription= {<>
+          A responsive pokemon app that let's you explore a large libarary of pokemons, view their strenghts and save your favorite pokemons!. Find it on github <a href='https://github.com/aladeenuthy/pokedex'>here</a>
+          </>}
           imageLength = {3}
           extension ={"png"}
           folderName={"pokedex"}
@@ -39,7 +41,9 @@ function ProjectBody() {
           <Project 
           key={"chops"}
           projectName={"Chops"} 
-          projectDescription= {"A food delivery application built with Flutter, Firebase and Paystack"}
+          projectDescription= {<>
+            A food delivery application built with Flutter, Firebase and Paystack Find it on github <a href='https://github.com/aladeenuthy/chops'>here</a>
+            </>}
           imageLength = {5}
           extension ={"png"}
           folderName={"chops"}
@@ -47,7 +51,9 @@ function ProjectBody() {
           <Project 
           key={"connect"}
           projectName={"Connect"} 
-          projectDescription= {"A Realtime chat application built with flutter and firebase"}
+          projectDescription= {<>
+           A Realtime chat application built with flutter and firebase. Find it on github <a href='https://github.com/aladeenuthy/connect'>here</a>
+            </>} 
           imageLength = {6}
           extension ={"png"}
           folderName={"connect"}
@@ -55,7 +61,9 @@ function ProjectBody() {
           <Project 
           key={"findR"}
           projectName={"findR"} 
-          projectDescription= {"A Flutter app that let's you find restaurants near you, see ratings and other people's reviews using Google Places API"}
+          projectDescription= {<>
+            A Flutter app that let's you find restaurants near you, see ratings and other people's reviews using Google Places API. Find it on github <a href='https://github.com/aladeenuthy/findR'>here</a>
+             </>}  
           imageLength = {6}
           extension ={"jpeg"}
           folderName={"findR"}
@@ -63,7 +71,9 @@ function ProjectBody() {
           <Project 
           key={"loud"}
           projectName={"Loud"} 
-          projectDescription= {"A Music application built with Flutter"}
+          projectDescription=  {<>
+            A Music application built with Flutter. Find it on github <a href='https://github.com/aladeenuthy/loud'>here</a>
+             </>} 
           imageLength = {7}
           extension ={"JPG"}
           folderName={"loud"}
