@@ -11,7 +11,7 @@ function ProjectBody() {
           key={"RouteLift"}
           projectName={"RouteLift"} 
           projectDescription= {<>
-          RouteLift is your trusted partner for last-mile delivery solutions. We are a data-driven, technology-based logistics solution aimed at helping every business lift the burden of route management in order to serve customers more efficiently and maximize profits. Routelift is available on <a href='https://play.google.com/store/apps/details?id=com.routelift'>PlayStore</a>
+          RouteLift is your trusted partner for last-mile delivery solutions. We are a data-driven, technology-based logistics solution aimed at helping every business lift the burden of route management in order to serve customers more efficiently and maximize profits. Routelift is available on <a href='https://play.google.com/store/apps/details?id=com.routelift'>PlayStore</a> and on <a href='https://apps.apple.com/ng/app/routelift/id6443918515'>AppStore</a>
           </>}
 
           imageLength = {6}
@@ -23,8 +23,8 @@ function ProjectBody() {
           projectName={"RouteLift Manager"} 
           projectDescription= {<>
             RouteLift Manager is the manager app for registered logistics companies on Routelift to manage their deliveries between customers and drivers. Routelift manager is available on <a href='https://play.google.com/store/apps/details?id=com.routelift.manager'>PlayStore</a>
-          </>}
-          imageLength = {6}
+            </>}
+          imageLength = {7}
           extension ={"png"}
           folderName={"routelift-manger"}
           />
