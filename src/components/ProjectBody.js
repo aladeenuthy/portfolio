@@ -32,7 +32,7 @@ function ProjectBody() {
           key={"Reachme"}
           projectName={"Reachme"} 
           projectDescription= {<>
-          Reachme Social is a multi dimensional social media application, designed to securely connect with friends and family, having full control of your data the whole time. Video and Audio Calls, Livestreaming ,Post Reaches, Post Streaks (Short Videos), Post Statuses. Reachme is available on <a href='https://play.google.com/store/apps/details?id=com.myreach.me'>PlayStore</a> 
+          Reachme Social is a multi dimensional social media application, designed to securely connect with friends and family, having full control of your data the whole time. Video and Audio Calls, Livestreaming ,Post Reaches, Post Streaks (Short Videos), Post Statuses. Reachme is available on <a href='https://play.google.com/store/apps/details?id=com.myreach.me'>PlayStore</a> and on  <a href='https://apps.apple.com/ng/app/reachme-social/id1666208776'>AppStore</a>
           </>}
           imageLength = {7}
           extension ={"png"}
