@@ -72,7 +72,7 @@ function ProjectBody() {
           key={"CommandLink"}
           projectName={"CommandLink"} 
           projectDescription= {<>
-           A Realtime chat application with End-to-End encryption and Steganography for army personnel built with flutter and firebase <a href='https://github.com/aladeenuthy/connect'>here</a>
+           A Realtime chat application with End-to-End encryption and Steganography for army personnel built with flutter and firebase <a href='https://github.com/aladeenuthy/CommandLink'>here</a>
             </>} 
           imageLength = {7}
           extension ={"png"}
