@@ -48,15 +48,15 @@ function ProjectBody() {
           extension ={"png"}
           folderName={"routelift-manger"}
           />
-          <Project 
-          key={"Pokedex"}
-          projectName={"Pokedex"} 
+           <Project 
+          key={"CommandLink"}
+          projectName={"CommandLink"} 
           projectDescription= {<>
-          A responsive pokemon app that let's you explore a large libarary of pokemons, view their strenghts and save your favorite pokemons!. Find it on github <a href='https://github.com/aladeenuthy/pokedex'>here</a>
-          </>}
-          imageLength = {3}
+           A Realtime chat application with End-to-End encryption and Steganography for army personnel built with flutter and firebase <a href='https://github.com/aladeenuthy/CommandLink'>here</a>
+            </>} 
+          imageLength = {7}
           extension ={"png"}
-          folderName={"pokedex"}
+          folderName={"commandlink"}
           />
           <Project 
           key={"chops"}
@@ -69,14 +69,14 @@ function ProjectBody() {
           folderName={"chops"}
           />
           <Project 
-          key={"CommandLink"}
-          projectName={"CommandLink"} 
+          key={"Pokedex"}
+          projectName={"Pokedex"} 
           projectDescription= {<>
-           A Realtime chat application with End-to-End encryption and Steganography for army personnel built with flutter and firebase <a href='https://github.com/aladeenuthy/CommandLink'>here</a>
-            </>} 
-          imageLength = {7}
+          A responsive pokemon app that let's you explore a large libarary of pokemons, view their strenghts and save your favorite pokemons!. Find it on github <a href='https://github.com/aladeenuthy/pokedex'>here</a>
+          </>}
+          imageLength = {3}
           extension ={"png"}
-          folderName={"commandlink"}
+          folderName={"pokedex"}
           />
           <Project 
           key={"findR"}
