@@ -42,7 +42,7 @@ function ProjectBody() {
           key={"RouteLift Manager"}
           projectName={"RouteLift Manager"} 
           projectDescription= {<>
-            RouteLift Manager is the manager app for registered logistics companies on Routelift to manage their deliveries between customers and drivers. Routelift manager is available on <a href='https://play.google.com/store/apps/details?id=com.routelift.manager'>PlayStore</a>
+            RouteLift Manager is the manager app for registered logistics companies on Routelift to manage their deliveries between customers and drivers. Routelift manager is available on <a href='https://play.google.com/store/apps/details?id=com.routelift.manager'>PlayStore</a> and on <a href='https://apps.apple.com/ng/app/routelift-manager/id1661324361'>App Store</a>
             </>}
           imageLength = {7}
           extension ={"png"}
@@ -69,14 +69,14 @@ function ProjectBody() {
           folderName={"chops"}
           />
           <Project 
-          key={"connect"}
-          projectName={"Connect"} 
+          key={"CommandLink"}
+          projectName={"CommandLink"} 
           projectDescription= {<>
-           A Realtime chat application built with flutter and firebase. Find it on github <a href='https://github.com/aladeenuthy/connect'>here</a>
+           A Realtime chat application with End-to-End encryption and Steganography for army personnel built with flutter and firebase <a href='https://github.com/aladeenuthy/connect'>here</a>
             </>} 
-          imageLength = {6}
+          imageLength = {7}
           extension ={"png"}
-          folderName={"connect"}
+          folderName={"commandlink"}
           />
           <Project 
           key={"findR"}
