@@ -4,10 +4,75 @@ import Project from './Project';
 function ProjectBody() {
   return (
     <div className='projects app-body'>
-        <h1 className="head-title mb-5">
-            Projects
-        </h1>
-        <Project 
+      <Project 
+          key={"Rebake"}
+          projectName={"Rebake (Only Available in the UK)"} 
+          projectDescription= {<>
+          Rebake is an online marketplace for buying and selling pre-owned bakeware, promoting sustainability by reducing
+waste. It connects bakers to purchase discounted items or resell unused ones, supporting a circular economy. <a href='https://play.google.com/store/apps/details?id=com.rebake.app&pcampaignid=web_share'>PlayStore</a> and on <a href='https://apps.apple.com/gb/app/rebake/id6550900182'>AppStore</a>
+          </>}
+
+          imageLength = {4}
+          extension ={"png"}
+          folderName={"rebake"}
+          />
+
+       <Project 
+          key={"GetSermons"}
+          projectName={"GetSermons"} 
+          projectDescription= {<>
+          GetSermons provides a seamless way to discover sermons by preachers, churches and topics. <a href='https://play.google.com/store/apps/details?id=ng.sermons.lumine.sermons_mobile_app'>PlayStore</a> and on <a href='https://apps.apple.com/ng/app/getsermons/id6480300015'>AppStore</a>
+          </>}
+
+          imageLength = {5}
+          extension ={"png"}
+          folderName={"getsermons"}
+          />
+           <Project 
+          key={"shoptreo"}
+          projectName={"Shoptreo"} 
+          projectDescription= {<>
+          Shoptreo is a B2B retail platform designed to streamline interactions between manufacturers and distributors. <a href='https://play.google.com/store/apps/details?id=com.shoptreo.app'>PlayStore</a> 
+          </>}
+
+          imageLength = {3}
+          extension ={"png"}
+          folderName={"shoptreo"}
+          />
+            <Project 
+          key={"shoptreo-agent"}
+          projectName={"Shoptreo Agent"} 
+          projectDescription= {<>
+          Shoptreo Agent is the agent app for Shoptreo to manage sales, track orders and earn commissions <a href='https://play.google.com/store/apps/details?id=com.app.shoptreo_agent'>PlayStore</a> 
+          </>}
+
+          imageLength = {3}
+          extension ={"jpg"}
+          folderName={"shoptreo-agent"}
+          />
+    
+       <Project 
+          key={"RouteLift"}
+          projectName={"RouteLift"} 
+          projectDescription= {<>
+          RouteLift is your trusted partner for last-mile delivery solutions. We are a data-driven, technology-based logistics solution aimed at helping every business lift the burden of route management in order to serve customers more efficiently and maximize profits. Routelift is available on <a href='https://play.google.com/store/apps/details?id=com.routelift'>PlayStore</a> and on <a href='https://apps.apple.com/ng/app/routelift/id6443918515'>AppStore</a>
+          </>}
+
+          imageLength = {4}
+          extension ={"png"}
+          folderName={"routelift"}
+          />
+           <Project 
+          key={"RouteLift Manager"}
+          projectName={"RouteLift Manager"} 
+          projectDescription= {<>
+            RouteLift Manager is the manager app for registered logistics companies on Routelift to manage their deliveries between customers and drivers. Routelift manager is available on <a href='https://play.google.com/store/apps/details?id=com.routelift.manager'>PlayStore</a> and on <a href='https://apps.apple.com/ng/app/routelift-manager/id1661324361'>App Store</a>
+            </>}
+          imageLength = {7}
+          extension ={"png"}
+          folderName={"routelift-manger"}
+          />
+           <Project 
           key={"Reacher"}
           projectName={"Reacher"} 
           projectDescription= {<>
@@ -16,17 +81,6 @@ function ProjectBody() {
           imageLength = {8}
           extension ={"png"}
           folderName={"reacher"}
-          />
-       <Project 
-          key={"RouteLift"}
-          projectName={"RouteLift"} 
-          projectDescription= {<>
-          RouteLift is your trusted partner for last-mile delivery solutions. We are a data-driven, technology-based logistics solution aimed at helping every business lift the burden of route management in order to serve customers more efficiently and maximize profits. Routelift is available on <a href='https://play.google.com/store/apps/details?id=com.routelift'>PlayStore</a> and on <a href='https://apps.apple.com/ng/app/routelift/id6443918515'>AppStore</a>
-          </>}
-
-          imageLength = {6}
-          extension ={"png"}
-          folderName={"routelift"}
           />
            <Project 
           key={"Reachme"}
@@ -38,16 +92,7 @@ function ProjectBody() {
           extension ={"png"}
           folderName={"reachme"}
           />
-          <Project 
-          key={"RouteLift Manager"}
-          projectName={"RouteLift Manager"} 
-          projectDescription= {<>
-            RouteLift Manager is the manager app for registered logistics companies on Routelift to manage their deliveries between customers and drivers. Routelift manager is available on <a href='https://play.google.com/store/apps/details?id=com.routelift.manager'>PlayStore</a> and on <a href='https://apps.apple.com/ng/app/routelift-manager/id1661324361'>App Store</a>
-            </>}
-          imageLength = {7}
-          extension ={"png"}
-          folderName={"routelift-manger"}
-          />
+         
            <Project 
           key={"CommandLink"}
           projectName={"CommandLink"} 

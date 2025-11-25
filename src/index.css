@@ -1,3 +1,4 @@
+
 body{
   height: 100%;
   background-color: #08070a;
@@ -6,10 +7,9 @@ body{
   background-image: url('./images/pointer.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 }
-img{
-  max-width: 100%;
-}
+
 .App{
   overflow: auto;
 }
@@ -17,9 +17,14 @@ nav{
   width: 80%;
   margin: 0 auto;
   margin-top: 50px;
-  position: absolute;
-  right: 0;
-  left: 0;
+}
+#self-image{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+
 }
 nav > div:first-of-type a, #mobile-menu > div:last-of-type a{
   color: rgba(255, 255, 255, 0.8);
@@ -31,6 +36,10 @@ nav > div:first-of-type a, #mobile-menu > div:last-of-type a{
 nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
   transform: scale(1.3);
   color: #f8f6f6;
+}
+.highlighted{
+  color: #f8f6f6!important;
+  font-weight: 700;
 }
 .mobile-nav{
   display: none;
@@ -64,33 +73,40 @@ nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
 .app-body{
   width: 75%;
   margin: 0 auto;
-  margin-top: 200px;
+}
+.summary{
+  font-size: 20px;
 }
 .main-home{
-  margin-bottom: 100px;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin-top: 0px;
-}
-.main-home img{
-  height: 300px;
-  max-width: initial;
-  border-radius: 20px;
+  height: 70vh;
+  display: flex;
 }
 
-.app-body h1{
+.rubik-dirt-regular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.app-body h2{
   font-size: 36px;
   font-weight: 500;
   text-align: left;
+  font-family: "Roboto", sans-serif;
 }
 
 .head-title{
   font-size: 48px!important;
 }
+.projects, .services{
+    margin-top: 80px;
+}
 .project{
   width: 93%;
   margin: auto;
+
 }
 .project a{
   color: rgba(255, 255, 255, 0.8);
@@ -111,9 +127,12 @@ nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
 
 .project-image-container img{
   height: 450px;
+
+
 }
 .project-image-container div{
   margin-bottom: 40px;
+  
 }
 
 .back-to-top{
@@ -130,7 +149,7 @@ nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
   margin-bottom: 10px;
 }
 .service > div{
-  margin-bottom: 150px;
+  margin-bottom:70px;
 }
 .service > div:first-of-type{
   flex-basis: 60%;
@@ -139,9 +158,6 @@ nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
   flex-basis: 30%;
 }
 @media (max-width: 576px) { 
-  .main-home img{
-    max-width: 100%;
-  }
   .project-image-container img{
     height: auto;
     width: 100%;
@@ -154,15 +170,15 @@ nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
 }
 
 @media (max-width: 768px){
+  .main-home{
+      display: block;
+      margin-top: 100px;
+  }
   .app-body{
-    width: 90%;
+    width: 95%;
   }
   nav{
-    width: 85%;
-  }
-  .main-home{
-    margin-top: 200px;
-    height: auto;
+    width: 95%;
   }
 
 
@@ -175,8 +191,8 @@ nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
   .back-to-top{
     right: 10px;
   }
-  .main-home > div:first-of-type{
-    text-align:  center;
+  .summary{
+    font-size: 18px;
   }
   .service{
     flex-direction: column;

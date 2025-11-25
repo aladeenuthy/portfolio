@@ -4,7 +4,7 @@ import {AiFillTwitterCircle, AiFillMail} from 'react-icons/ai'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {MdClose} from 'react-icons/md';
 import { useRef } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 function Navbar() {
   const mobileMenuRef = useRef()
   const navigate = useNavigate()
@@ -12,15 +12,15 @@ function Navbar() {
     <div>
       <nav className='d-flex justify-content-between align-items-center' data-aos="fade-down">
         <div className='d-flex align-items-center desktop-nav'>
-            <Link to='/'>
+            <NavLink to='/'>
             <img src={Logo} alt='' width={48}  />
-            </Link>
-            <Link to='/projects' className='ms-3 me-3'>
+            </NavLink>
+            <NavLink to='/projects' className={({ isActive }) => isActive ? 'ms-3 me-3 highlighted' : 'ms-3 me-3'}>
                 Projects
-            </Link>
-            <Link to='/services' >
+            </NavLink>
+            <NavLink to='/services' className={({ isActive }) => isActive ? ' highlighted' : ''} >
                 Services
-            </Link>
+            </NavLink>
           </div>
           <div className='d-flex align-items-center desktop-nav'>
           <a href='https://github.com/aladeenuthy'>
@@ -36,9 +36,9 @@ function Navbar() {
           <GiHamburgerMenu size={30} className="icons mobile-nav" onClick={()=>{
       mobileMenuRef.current.style.transform = 'translate(0px)'
     }} />
-    <Link to='/' className='mobile-nav'>
+    <NavLink to='/' className='mobile-nav'>
             <img src={Logo} alt='' width={48}className= 'mobile-nav icons'  />
-      </Link>
+      </NavLink>
           
       </nav>
 
@@ -48,19 +48,19 @@ function Navbar() {
       mobileMenuRef.current.style.transform = 'translate(-2000px)'
     }} />
     </div>
-		<div class="d-flex flex-column align-items-center">
-    <Link to='/projects' className='mb-3' onClick={()=>{
+		<div className="d-flex flex-column align-items-center">
+    <NavLink to='/projects' className={({ isActive }) => isActive ? 'mb-3 highlighted' : 'mb-3'} onClick={()=>{
       mobileMenuRef.current.style.transform = 'translate(-2000px)'
       navigate('/projects')
     }}>
                 Projects
-            </Link>
-            <Link to='/services' className='mb-3' onClick={()=>{
+            </NavLink>
+            <NavLink to='/services' className={({ isActive }) => isActive ? 'mb-3 highlighted' : 'mb-3'} onClick={()=>{
       mobileMenuRef.current.style.transform = 'translate(-2000px)'
       navigate('/services')
     }} >
                 Services
-            </Link>
+            </NavLink>
       <div className='d-flex align-items-center'>
       <a href='https://github.com/aladeenuthy'>
           <TfiGithub size={30} className="icons" title='github' />

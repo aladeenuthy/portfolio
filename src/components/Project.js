@@ -1,6 +1,6 @@
 function Project({projectName, projectDescription,imageLength, folderName, extension}) {
     const images = Array.from({length:imageLength}).map((_, index)=>{
-        return <div><img src={require(`../images/${folderName}/${index+1}.${extension}`)} alt='' /></div>
+        return <div><img  src={require(`../images/${folderName}/${index+1}.${extension}`)} alt='' /></div>
     })
   return (
     <div className="project" data-aos="fade-up">
