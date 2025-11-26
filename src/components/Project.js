@@ -4,7 +4,7 @@ function Project({projectName, projectDescription,imageLength, folderName, exten
     })
   return (
     <div className="project" data-aos="fade-up">
-    <h1 className="mb-4">{projectName}</h1>
+    <h1 className="mb-4 rubik-dirt-regular">{projectName}</h1>
     <h4 className="mb-4">
     {projectDescription}
     </h4>

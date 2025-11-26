@@ -6,7 +6,7 @@ function Services() {
    <div className="services  app-body">
         <div className="service d-flex justify-content-between">
             <div className=''data-aos="fade-up-left">
-            <h1 className="mb-5">Mobile app development</h1>
+            <h1 className="mb-5 rubik-dirt-regular">Mobile app development</h1>
             <ul>
                <li><strong>Mobile Development:</strong> Flutter (cross-platform), Dart</li>
 <li><strong>UI/UX:</strong> Research, prototyping, and user-focused design</li>
@@ -22,7 +22,7 @@ function Services() {
         </div>
         <div className="service d-flex justify-content-between" >
             <div className='' data-aos="fade-up-left">
-            <h1 className="mb-5">Web development</h1>
+            <h1 className="mb-5 rubik-dirt-regular">Web development</h1>
            <ul>
         <li><strong>Languages & Frameworks:</strong> HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS. </li>
         <li><strong>Frontend Development:</strong> Responsive UI development, web design, animations (e.g., AOS).</li>
@@ -40,7 +40,7 @@ function Services() {
         </div>
          <div className="service d-flex justify-content-between" >
             <div className='' data-aos="fade-up-left">
-            <h1 className="mb-5">Backend development</h1>
+            <h1 className="mb-5 rubik-dirt-regular">Backend development</h1>
            <ul>
     <li><strong>Languages & Frameworks:</strong> Python, Django, Django REST Framework (DRF)</li>
     <li><strong>API Development:</strong> RESTful API design, authentication, permissions</li>
