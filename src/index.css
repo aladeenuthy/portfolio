@@ -184,10 +184,13 @@ nav > div:first-of-type a:hover,  #mobile-menu > div:last-of-type a:hover{
       margin-top: 100px;
   }
   .app-body{
-    width: 95%;
+    width: 90%;
   }
   nav{
-    width: 95%;
+    width: 90%;
+  }
+  .project{
+    width: 100%;
   }
 
 
